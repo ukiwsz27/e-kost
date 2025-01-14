@@ -1,0 +1,20 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// FontAwesome 5.0.6
+@import "node_modules/fontawesome-free/web-fonts-with-css/scss/fontawesome.scss";
+@import "node_modules/fontawesome-free/web-fonts-with-css/scss/fa-solid.scss";
+@import "node_modules/fontawesome-free/web-fonts-with-css/scss/fa-brands.scss";
+@import "node_modules/fontawesome-free/web-fonts-with-css/scss/fa-regular.scss";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
